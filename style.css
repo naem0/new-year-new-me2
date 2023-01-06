@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Button style  */
+.primary-button{
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    height: 64px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.wheat-button{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    height: 64px;
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* banner section style */
+.banner{
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    text-align: right;
+    padding: 215px 230px;
+    height: 100%;
+    overflow: hidden;
+}
+.banner-text-area{
+    width: 525px;
+    float: right;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-description{
+    color: #444343;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+/* failure section style */
+.failure-container{
+    margin: 140px 220px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.section-p{
+    margin: 22px 0;
+    color: #444343;
+}
+.failure-list-item{
+    list-style-image: url(images/icons/tick.png);
+    color: #444343;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* My Plan section style */
+.plan{
+    text-align: center;
+    margin: 130px 230px;
+}
+.plan-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-item-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.plan-item-img{
+    margin-top: 60px;
+}
+.plan-item-description{
+font-size: 25px;
+font-weight: 500;
+color:#444343;
+}
+
+/* Team section  */
+.team-section{
+    margin: 130px 230px;
+    text-align: center;
+
+}
+.team-text-area{
+    padding: 0% 20%;
+}
+.team-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.team-member{
+    padding: 20px 40px;
+    box-shadow: 1px 1px 5px #bbbbbb;
+
+}
+.team-member img{
+    width: 100px;
+    border-radius: 50%;
+}
+.member-name{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #444343;
+    font-size: 20px;
+}
+.member-title{
+    color: #444343;
+}
+/* Call sectin style */
+.call-section{
+    margin: 130px 230px;
+    background-image: url(images/watch.png), url(images/gradient3.png);
+    padding: 60px 65px;
+    background-blend-mode: multiply;
+}
+.call-container{
+    width: 500px;
+}
+.call-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+/* Footer section style */
+.footer-containner{
+    display: flex;
+    gap: 330px;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+.footer-title{
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.footer-p{
+    margin-bottom: 22px;
+    color: #FFFFFF;
+}
+.sociel{
+    display: flex;
+    gap: 18px;
+    margin-top: 32px;
+}
+.sociel-icon{
+    width: 48px;
+}
+ /* form style  */
+label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+#email{
+    background-color: #151414;
+    color: wheat;
+    height: 42px;
+    width: 325px;
+    border: 2px solid #FFFFFF;
+    padding: 21px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
