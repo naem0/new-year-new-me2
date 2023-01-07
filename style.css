@@ -144,7 +144,7 @@ color:#444343;
 /* Footer section style */
 .footer-containner{
     display: flex;
-    gap: 330px;
+    gap: 250px;
     background-color: #151414;
     padding: 130px 230px;
 }
